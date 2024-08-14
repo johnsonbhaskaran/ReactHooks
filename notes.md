@@ -17,3 +17,8 @@
 - useMemo is similar to useCallback. It also improves performance.
 - but useMemo returns memoized value
 - and useCallback returns a memoized function.
+
+## useCallback
+
+- It cache a function definition between re-renders.
+- It prevents creation of multiple instances of same function when re-render happens.
