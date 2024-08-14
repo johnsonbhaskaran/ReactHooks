@@ -22,3 +22,9 @@
 
 - It cache a function definition between re-renders.
 - It prevents creation of multiple instances of same function when re-render happens.
+
+## useContext
+
+- Used to create Global data.
+- That data can be accessed from any component without passing through props at every component level.
+-
